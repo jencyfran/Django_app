@@ -7,5 +7,26 @@ Django
 AWS CLI (for deployment)
 
 
-** STEPS
+# STEPS
+
+1. virtualenv venv
+2. django-admin startproject storage
+3. django-admin startapp api
+4. python3 manage.py makemigrations
+5. python3 manage.py migrate
+6. python3 manage.py runserver
+
+## Access on Ports
+
+### ADMIN
+1. http://127.0.0.1:8000/admin/
+2. Username: jency
+3. pass: 1234
+
+### ITEM
+http://127.0.0.1:8000/api/item/
+
+### LOCATION
+http://127.0.0.1:8000/api/location/
+
 
