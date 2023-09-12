@@ -8,6 +8,7 @@ class ItemList(generics.ListCreateAPIView):
     serializer_class = ItemSerializer
 
 # Queryset -> Data that's coming from the database
+# View for listing and creating items
 
     def get_queryset(self):
         queryset = Item.objects.all()
