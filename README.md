@@ -5,6 +5,7 @@ Prerequisites
 Python (>=3.6)
 Django
 AWS CLI (for deployment)
-Refer to the file
 
-api --setup.txt
+
+** STEPS
+
