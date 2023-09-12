@@ -36,4 +36,12 @@ http://127.0.0.1:8000/api/location/
 
 1. sudo dnf update -y
 2. sudo dnf install git -y
-3. 
+3. git clone https://github.com/jencyfran/Django_app.git
+4. cd Django_app
+5. sudo dnf install pip -y
+6. pip install django djangorestframework
+7. pip install pillow
+8. python3 manage.py makemigrations
+9. python3 manage.py migrate
+10. python3 manage.py runserver 0.0.0.0:8000
+
