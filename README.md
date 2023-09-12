@@ -30,3 +30,10 @@ http://127.0.0.1:8000/api/item/
 http://127.0.0.1:8000/api/location/
 
 
+
+
+# STEPS for AWS - EC2 
+
+1. sudo dnf update -y
+2. sudo dnf install git -y
+3. 
